@@ -1,0 +1,18 @@
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.profileImage {
+  width: 300px;
+  display: inline;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.profileDesc {
+  padding-left: 20px;
+}
+a {
+  text-decoration: none;
+}

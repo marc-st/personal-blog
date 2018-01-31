@@ -1,0 +1,14 @@
+.sidebar {
+  text-align: left;
+  float: left;
+  margin-left: 40px;
+  margin-top: 200px;
+  flex: 1;
+}
+.sidebar ul {
+  list-style: circle;
+  border-left: solid 3px black;
+}
+.sidebar li {
+  padding-bottom: 7px;
+}
