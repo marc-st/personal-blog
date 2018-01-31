@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import '../stylesheets/App.css';
 
-import Header from './Header';
-import Sidebar from './Sidebar';
+import {Header} from './Shared';
+import Navigation from './Navigation';
 import Content from './Content';
 
 class App extends Component {
@@ -11,7 +11,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <div className="main-content">
-          <Sidebar />
+          <Navigation />
           <Content />
         </div>
       </div>

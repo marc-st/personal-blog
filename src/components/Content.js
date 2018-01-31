@@ -6,15 +6,15 @@ import { Home } from './Home';
 import { Posts } from './Posts';
 import Post from './Post';
 
+import bloglist from "../bloglist"
+
 class Content extends Component {
   render(){
     return(
       <div className="mainPosts">
         <Switch>
-          <Route exact path = "/" component={Home}/>
+          <Route exact path = "/about" component={Home}/>
           <Route path= "/posts" component={Posts} />
-          // don't really want this here
-          <Route path= "/post" render={()=><Post filename="january-books"/>}/>
         </Switch>
       </div>
     );

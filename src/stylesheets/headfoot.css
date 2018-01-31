@@ -1,0 +1,42 @@
+
+.header {
+  height: 150px;
+  color: black;
+  font-size: 4em;
+  text-align: center;
+  padding-top: 80px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.App-title {
+  padding-top: 55px;
+  padding-left: 20px;
+  font-size: 2em;
+}
+
+.profileImage {
+  width: 200px;
+  border-radius: 15px;
+  display: inline;
+}
+
+.footer img {
+  height: 25px;
+  padding-right: 10px;
+}
+.footer {
+  background: #615D63;
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  height:40px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 2px black;
+}
+li {
+  display: inline;
+}
