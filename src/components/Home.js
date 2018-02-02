@@ -21,7 +21,7 @@ export const Home = () => (
     <div>
       <ul className="mediaLinks">
         <li>
-          <a href="https://twitter.com/stevensmrc">
+          <a href="https://twitter.com/marcsstevens">
             <img src= {require("../images/twitter.png")}/>
           </a>
         </li>
