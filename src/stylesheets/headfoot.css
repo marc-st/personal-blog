@@ -9,16 +9,32 @@
   align-items: center;
   justify-content: center;
 }
+
 .App-title {
   padding-top: 55px;
   padding-left: 20px;
   font-size: 2em;
 }
-
 .profileImage {
   width: 200px;
   border-radius: 15px;
   display: inline;
+}
+
+@media all and (max-width: 640px) { /* css for mobile devices */
+  .header {
+    flex-direction: column;
+    height: 40%;
+  }
+  .App-title {
+    font-size: 0.8em;
+    padding-top: 10%;
+    padding-left: 0px;
+  }
+  .profileImage {
+    width: 40%;
+    border-raidus: 15px;
+  }
 }
 
 .footer img {
