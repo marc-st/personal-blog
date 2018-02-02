@@ -7,8 +7,8 @@ class Navigation extends Component {
     return(
       <div className="navigation">
         <ul>
-          <li><Link to ="/about"><img src={require("../images/info.svg")} /></Link> </li>
-          <li><Link to = "/posts"> <img src={require("../images/blog.svg")} /> </Link> </li>
+          <li><Link to ="/about"><img src={require("../images/info.svg")} alt="Info" /></Link> </li>
+          <li><Link to = "/posts"> <img src={require("../images/blog.svg")} alt="Blog" /> </Link> </li>
         </ul>
       </div>
     );

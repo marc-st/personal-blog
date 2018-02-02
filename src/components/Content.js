@@ -4,9 +4,6 @@ import { Switch, Route } from 'react-router-dom'
 
 import { Home } from './Home';
 import { Posts } from './Posts';
-import Post from './Post';
-
-import bloglist from "../bloglist"
 
 class Content extends Component {
   render(){

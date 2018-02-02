@@ -1,17 +1,17 @@
 @font-face {
-  font-family: Muli-Black, sans-serif;
+  font-family: Muli-Black;
   src: url(../fonts/Muli-Black.ttf);
 }
 @font-face {
-  font-family: Muli-Bold, sans-serif;
+  font-family: Muli-Bold;
   src: url(../fonts/Muli-Bold.ttf);
 }
 @font-face {
-  font-family: Muli-ExtraBold, sans-serif;
+  font-family: Muli-ExtraBold;
   src: url(../fonts/Muli-ExtraBold.ttf);
 }
 @font-face {
-  font-family: Muli-Regular, sans-serif;
+  font-family: Muli-Regular;
   src: url(../fonts/Muli-Regular.ttf);
 }
 
@@ -21,7 +21,7 @@ html, body {
   border: 0;
   outline: 0;
   background: transparent;
-  font-family: 'Muli-Black';
+  font-family: 'Muli-Regular';
 }
 h1 {
   font-family: 'Muli-Bold';

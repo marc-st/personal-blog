@@ -1,4 +1,4 @@
-import React, { Component }  from 'react';
+import React from 'react';
 import "../stylesheets/home.css";
 
 export const Home = () => (
@@ -22,17 +22,17 @@ export const Home = () => (
       <ul className="mediaLinks">
         <li>
           <a href="https://twitter.com/marcsstevens">
-            <img src= {require("../images/twitter.png")}/>
+            <img src= {require("../images/twitter.png")} alt="Twitter Logo"/>
           </a>
         </li>
         <li>
           <a href="https://github.com/marc-st">
-            <img src={require("../images/github.png")}/>
+            <img src={require("../images/github.png")} alt="Github Logo"/>
            </a>
         </li>
         <li>
           <a href="https://www.linkedin.com/in/marc-stevens-292820144/">
-            <img src={require("../images/linkedinlogo.png")}/>
+            <img src={require("../images/linkedinlogo.png")} alt="LinkedIn Logo"/>
            </a>
         </li>
       </ul>
