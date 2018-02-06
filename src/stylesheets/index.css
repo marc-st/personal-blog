@@ -7,8 +7,12 @@
   src: url(../fonts/Muli-Bold.ttf);
 }
 @font-face {
-  font-family: Muli-ExtraBold;
-  src: url(../fonts/Muli-ExtraBold.ttf);
+  font-family: Muli-Light;
+  src: url(../fonts/Muli-Light.ttf);
+}
+@font-face {
+  font-famiy: Muli-Extra-Light;
+  src: url(../fonts/Muli-ExtraLight.ttf);
 }
 @font-face {
   font-family: Muli-Regular;
@@ -21,7 +25,8 @@ html, body {
   border: 0;
   outline: 0;
   background: transparent;
-  font-family: 'Muli-Regular';
+  font-family: 'Muli-Light';
+
 }
 h1 {
   font-family: 'Muli-Bold';

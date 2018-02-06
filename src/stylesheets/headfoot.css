@@ -4,7 +4,7 @@
   color: black;
   font-size: 4em;
   text-align: center;
-  padding-top: 80px;
+  padding-top: 10%;
   display:flex;
   align-items: center;
   justify-content: center;
@@ -12,11 +12,12 @@
 
 .App-title {
   padding-top: 55px;
-  padding-left: 20px;
-  font-size: 2em;
+  padding-left: 4%;
+  font-size: 1.6em;
 }
 .profileImage {
   width: 200px;
+  margin-left: 4%;
   border-radius: 15px;
   display: inline;
 }

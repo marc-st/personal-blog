@@ -1,0 +1,9 @@
+.postLinks {
+  -webkit-padding-start: 0px;
+  width: 100%;
+}
+.postLink {
+  font-size: 1.9em;
+  padding-left: 0;
+  padding-bottom: 50px;
+}
