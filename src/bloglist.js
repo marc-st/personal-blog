@@ -5,10 +5,10 @@ export default {
       url: "/january-book-reviews",
       filename: "january-books"
     },
-    /* feb: {
+    feb: {
       name: "February Book Reviews",
       url: "/february-book-reviews",
       filename: "february-books"
-    } */
+    }
   }
 };

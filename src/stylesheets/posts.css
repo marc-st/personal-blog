@@ -1,9 +1,17 @@
 .postLinks {
   -webkit-padding-start: 0px;
   width: 100%;
+  white-space: nowrap;
 }
 .postLink {
-  font-size: 1.9em;
+  font-size: 1.2em;
+  width: 100%;
   padding-left: 0;
   padding-bottom: 50px;
+}
+a:hover {
+  color: grey;
+}
+a {
+  color: black;
 }
