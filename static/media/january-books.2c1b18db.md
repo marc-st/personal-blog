@@ -1,4 +1,4 @@
-## January Book Reviews 31/1/18
+# January Book Reviews 31/1/18
 
 
 
@@ -20,5 +20,3 @@ Simply put, this book is a hug.
 I have noticed a few things from reading the books of Buddhist teachers like Haemin Sunim and Thich Nhat Hanh: They really cut the bullshit.
 
 It is a breathe of fresh-air. Life need not be difficult.
-
-Since reading books similar to this, as well as exploring meditation; life has become beautiful, and simple.
