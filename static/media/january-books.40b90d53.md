@@ -1,6 +1,3 @@
-# January Book Reviews 31/1/18
-
-
 
 ### Whole by T. Colin Campbell
 
