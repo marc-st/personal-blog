@@ -3,6 +3,7 @@
   white-space: nowrap;
   overflow: auto;
   padding-bottom: 5%;
+  overflow-y: hidden;
 }
 .postLink {
   display: inline;
