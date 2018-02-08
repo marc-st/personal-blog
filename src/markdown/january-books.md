@@ -17,5 +17,8 @@ Simply put, this book is a hug.
 I have noticed a few things from reading the books of Buddhist teachers like Haemin Sunim and Thich Nhat Hanh: They really cut the bullshit.
 
 It is a breathe of fresh-air. Life need not be difficult.
+<<<<<<< HEAD
 
 Ever since reading into Buddhism from these teachers, life has become beautiful, and simple.
+=======
+>>>>>>> ccb3d67eaf0922ff52d91b5e9bffb95354673d46
