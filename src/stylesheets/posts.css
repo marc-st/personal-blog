@@ -1,10 +1,12 @@
 .postLinks {
   -webkit-padding-start: 0px;
-  width: 100%;
   white-space: nowrap;
+  overflow: auto;
+  padding-bottom: 5%;
 }
 .postLink {
-  font-size: 1.2em;
+  display: inline;
+  font-size: 1.4em;
   width: 100%;
   padding-left: 0;
   padding-bottom: 50px;
