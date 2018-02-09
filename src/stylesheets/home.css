@@ -1,20 +1,24 @@
 .home {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
 .mediaLinks {
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: baseline;
-  width: 55%;
-  margin: auto;
-  padding-top: 5%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: baseline;
+	width: 55%;
+	margin: auto;
+	padding-top: 5%;
 }
-.socialLogo{
-  width: 40px;
+.socialLogo {
+	width: 40px;
 }
-.profileDesc { padding-bottom: 5%;}
-a { text-decoration: none; }
-hr { width: 100%; margin:auto; }
+.profileDesc {
+	padding-bottom: 5%;
+}
+hr {
+	width: 100%;
+	margin: auto;
+}

@@ -10,14 +10,11 @@
 .navigation ul {
 	-webkit-padding-start: 0px;
 	display: flex;
-	flex-direction: row;
 	width: 20%;
 }
-li {
-	padding: 5%;
-}
-ul li {
+.navIcon {
 	flex: 1;
+	padding: 5%;
 }
 a img {
 	height: 90%;

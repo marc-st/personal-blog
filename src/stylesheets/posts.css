@@ -1,20 +1,14 @@
 .postLinks {
-  -webkit-padding-start: 0px;
-  white-space: nowrap;
-  overflow: auto;
-  padding-bottom: 5%;
-  overflow-y: hidden;
+	-webkit-padding-start: 0px;
+	white-space: nowrap;
+	overflow: auto;
+	padding-bottom: 5%;
+	overflow-y: hidden;
 }
 .postLink {
-  display: inline;
-  font-size: 1.4em;
-  width: 100%;
-  padding-left: 0;
-  padding-bottom: 50px;
-}
-a:hover {
-  color: grey;
-}
-a {
-  color: black;
+	display: inline;
+	font-size: 1.4em;
+	width: 100%;
+	padding-left: 0;
+	padding-bottom: 50px;
 }
