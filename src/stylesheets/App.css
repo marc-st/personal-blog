@@ -1,17 +1,13 @@
-.App {
-  text-align: left;
-}
 .main-content {
-  padding-top: 50px;
-  padding-bottom: 100px;
+	padding-top: 50px;
+	padding-bottom: 100px;
 }
-@media all and (max-width: 640px) {
-  .main-content {
-    padding-top: 4%;
-    padding-bottom: 10%;
-  }
+@media all and (max-width: 900px) {
+	.main-content {
+		padding-top: 4%;
+		padding-bottom: 10%;
+	}
 }
-
 .App-intro {
-  font-size: large;
+	font-size: large;
 }
