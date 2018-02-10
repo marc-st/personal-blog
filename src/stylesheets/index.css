@@ -26,18 +26,18 @@ body {
 	border: 0;
 	outline: 0;
 	background: transparent;
-	font-family: "Muli-Light";
+	font-family: 'Muli-Light';
 }
 h1 {
-	font-family: "Muli-Bold";
+	font-family: 'Muli-Bold';
 }
 a {
 	font-family: Muli-Regular;
 	text-decoration: none;
-	color: black;
+	color: grey;
 }
 a:hover {
-	color: grey;
+	color: black;
 }
 li {
 	display: inline-block;
