@@ -1,14 +1,13 @@
 .postLinks {
 	-webkit-padding-start: 0px;
-	white-space: nowrap;
-	overflow: auto;
+	overflow: wrap;
 	padding-bottom: 5%;
-	overflow-y: hidden;
 }
 .postLink {
 	display: inline;
-	font-size: 1.4em;
+	font-size: 0.8em;
 	width: 100%;
 	padding-left: 0;
+	padding-right: 4%;
 	padding-bottom: 50px;
 }
