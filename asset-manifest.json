@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.a775747d.css",
-  "main.css.map": "static/css/main.a775747d.css.map",
-  "main.js": "static/js/main.1a5ff414.js",
-  "main.js.map": "static/js/main.1a5ff414.js.map",
+  "main.css": "static/css/main.baf89e63.css",
+  "main.css.map": "static/css/main.baf89e63.css.map",
+  "main.js": "static/js/main.d33e4734.js",
+  "main.js.map": "static/js/main.d33e4734.js.map",
   "static/media/Muli-Black.ttf": "static/media/Muli-Black.6d782a98.ttf",
   "static/media/Muli-Bold.ttf": "static/media/Muli-Bold.557f369c.ttf",
   "static/media/Muli-ExtraLight.ttf": "static/media/Muli-ExtraLight.f9b7a534.ttf",
@@ -11,5 +11,6 @@
   "static/media/blog.svg": "static/media/blog.8d5251e3.svg",
   "static/media/info.svg": "static/media/info.f716d8c2.svg",
   "static/media/january-books.md": "static/media/january-books.638937cc.md",
-  "static/media/marc.jpg": "static/media/marc.fa36cb00.jpg"
+  "static/media/marc.jpg": "static/media/marc.fa36cb00.jpg",
+  "static/media/newpost.md": "static/media/newpost.70860ecc.md"
 }
