@@ -1,22 +1,18 @@
 @font-face {
-	font-family: 'Muli-Black';
-	src: url(../fonts/Muli-Black.ttf);
+	font-family: 'Lato-Black';
+	src: url(../fonts/Lato/Lato-Black.ttf);
 }
 @font-face {
-	font-family: 'Muli-Bold';
-	src: url(../fonts/Muli-Bold.ttf);
+	font-family: 'Lato-Bold';
+	src: url(../fonts/Lato/Lato-Bold.ttf);
 }
 @font-face {
-	font-family: 'Muli-Light';
-	src: url(../fonts/Muli-Light.ttf);
+	font-family: 'OpenSans-Regular';
+	src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
 }
 @font-face {
-	font-family: 'Muli-Extra-Light';
-	src: url(../fonts/Muli-ExtraLight.ttf);
-}
-@font-face {
-	font-family: 'Muli-Regular';
-	src: url(../fonts/Muli-Regular.ttf);
+	font-family: 'OpenSans-Light';
+	src: url(../fonts/Open_Sans/OpenSans-Light.ttf);
 }
 
 html,
@@ -26,13 +22,16 @@ body {
 	border: 0;
 	outline: 0;
 	background: transparent;
-	font-family: 'Muli-Light';
+	font-family: 'OpenSans-Regular';
 }
 h1 {
-	font-family: 'Muli-Bold';
+	font-family: 'Lato-Bold';
+}
+h2 {
+	font-family: 'Lato-Black';
 }
 a {
-	font-family: 'Muli-Regular';
+	font-family: 'OpenSans-Regular';
 	text-decoration: none;
 	color: grey;
 }

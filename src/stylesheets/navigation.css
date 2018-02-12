@@ -9,7 +9,7 @@
 .navigation {
 	animation: 1s ease-out 0s 1 slideInFromRight;
 	width: 10%;
-	margin-right: 12%;
+	margin-right: 15%;
 }
 .navigation ul {
 	-webkit-padding-start: 0px;
@@ -32,7 +32,7 @@ a img {
 }
 @media all and (max-width: 900px) {
 	.navigation {
-		width: 20%;
+		width: 120px;
 		margin-right: 5%;
 	}
 }

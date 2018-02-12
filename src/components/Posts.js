@@ -29,6 +29,7 @@ const Blog = props =>
 export const Posts = ({ match }) => (
 	<React.Fragment>
 		<List match={match} />
+		<hr />
 		<Blog match={match} />
 	</React.Fragment>
 )
