@@ -3,6 +3,9 @@ import '../stylesheets/home.css'
 
 export const Home = () => (
 	<div className="home">
+		<div className="profileImageWrap">
+			<div className="profileImage" />
+		</div>
 		<article className="profileDesc">
 			<h2 style={{ marginTop: 0 }}>I'm Marc and I'm interested in hacking things together on the internet.</h2>
 			<p>

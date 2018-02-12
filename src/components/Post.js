@@ -1,10 +1,15 @@
 import React, { Component } from 'react'
 import marked from 'marked'
+import ReactDisqusComments from 'react-disqus-comments'
 
 class Post extends Component {
 	constructor(props) {
 		super(props)
 		this.state = { markdown: '' }
+	}
+
+	handleNewComment(comment) {
+		console.log(comment.text)
 	}
 
 	componentWillMount() {
@@ -26,6 +31,13 @@ class Post extends Component {
 		return (
 			<section>
 				<article dangerouslySetInnerHTML={{ __html: this.state.markdown }} />
+				<ReactDisqusComments
+					shortname="marcst-com"
+					identifier={this.props.filename}
+					url={this.props.match}
+					title={this.props.filename}
+					onNewComment={this.handleNewComment}
+				/>
 			</section>
 		)
 	}

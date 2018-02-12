@@ -22,7 +22,10 @@ body {
 	border: 0;
 	outline: 0;
 	background: transparent;
-	font-family: 'OpenSans-Regular';
+	font-family: 'OpenSans-Light';
+}
+p {
+	font-size: 0.84em;
 }
 h1 {
 	font-family: 'Lato-Bold';
