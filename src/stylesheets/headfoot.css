@@ -1,74 +1,51 @@
-@keyframes slideInFromLeft {
-	0% {
-		transform: translateX(-100%);
-	}
-	100% {
-		transform: translateX(0);
-	}
-}
-@keyframes slideInFromRight {
-	0% {
-		transform: translateX(+100%);
-	}
-	100% {
-		transform: translateX(0);
-	}
-}
-
 .header {
-	height: 150px;
+	height: 130px;
 	color: black;
-	font-size: 4em;
-	text-align: center;
-	padding-top: 6%;
 	display: flex;
 	align-items: center;
-	justify-content: center;
-}
-
-.App-title {
-	animation: 1s ease-in 0s 1 slideInFromRight;
-	padding-top: 55px;
-	padding-left: 4%;
+	justify-content: space-between;
+	background-color: #d6d6d6;
 	font-size: 1.6em;
+	text-align: center;
+	box-shadow: 1px 0px 3px black;
+}
+.App-title {
+	padding-left: 2%;
+	display: inline;
+	white-space: nowrap;
+}
+.profileImageWrap {
+	margin-left: 12%;
+	vertical-align: middle;
 }
 .profileImage {
-	animation: 1s ease-in 0s 1 slideInFromLeft;
-	width: 200px;
-	border-radius: 15px;
-	display: inline;
+	width: 85px;
+	height: 85px;
+	align-items: center;
+	background-image: url('../images/marc.jpg');
+	background-size: cover;
+	border-radius: 42.5px;
+	-webkit-border-radius: 42.5px;
+	-moz-border-radius: 42.5px;
+	box-shadow: 2px 0px 3px grey;
 }
 
 @media all and (max-width: 900px) {
 	/* css for mobile devices */
 	.header {
-		flex-direction: column;
-		height: 40%;
+		height: 80px;
 	}
-	.App-title {
-		font-size: 0.8em;
-		padding-top: 10%;
-		padding-left: 0px;
+	.profileImageWrap {
+		margin-left: 5%;
 	}
 	.profileImage {
-		width: 40%;
-		border-radius: 15px;
+		width: 50px;
+		height: 50px;
+		border-radius: 25px;
+		-webkit-border-radius: 25px;
+		-moz-border-radius: 25px;
 	}
-}
-
-.footer img {
-	height: 25px;
-	padding-right: 10px;
-}
-.footer {
-	background: #615d63;
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 40px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	box-shadow: 1px 1px 2px black;
+	.App-title {
+		font-size: 1.3em;
+	}
 }

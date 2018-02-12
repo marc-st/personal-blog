@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Route, Link } from 'react-router-dom'
-import EasyTransition from 'react-easy-transition'
 
 import Post from './Post'
 import bloglist from '../bloglist'

@@ -1,15 +1,13 @@
-import React from "react"
-import "../stylesheets/headfoot.css"
+import React from 'react'
+import '../stylesheets/headfoot.css'
+import Navigation from './Navigation'
 
 export const Header = () => (
 	<header className="header">
-		<img
-			src={require("../images/marc.jpg")}
-			className="profileImage"
-			alt="Marc Stevens"
-		/>
-		<h1 style={{ marginTop: 0 }} className="App-title">
-			Marc Stevens
-		</h1>
+		<div className="profileImageWrap">
+			<div className="profileImage" />
+		</div>
+		<h1 className="App-title">Marc Stevens</h1>
+		<Navigation />
 	</header>
 )

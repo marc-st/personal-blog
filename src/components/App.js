@@ -1,9 +1,8 @@
-import React, { Component } from "react"
-import "../stylesheets/App.css"
+import React, { Component } from 'react'
+import '../stylesheets/App.css'
 
-import { Header } from "./Shared"
-import Navigation from "./Navigation"
-import Content from "./Content"
+import { Header } from './Shared'
+import Content from './Content'
 
 class App extends Component {
 	render() {
@@ -11,7 +10,6 @@ class App extends Component {
 			<React.Fragment>
 				<Header />
 				<div className="main-content">
-					<Navigation />
 					<Content />
 				</div>
 			</React.Fragment>
