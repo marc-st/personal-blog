@@ -36,10 +36,10 @@ h2 {
 a {
 	font-family: 'OpenSans-Regular';
 	text-decoration: none;
-	color: grey;
+	color: #2c2c43;
 }
 a:hover {
-	color: black;
+	opacity: 0.5;
 }
 li {
 	display: inline-block;
