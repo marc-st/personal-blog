@@ -6,25 +6,25 @@ import { spring, AnimatedSwitch } from 'react-router-transition'
 import { Home } from './Home'
 import { Posts } from './Posts'
 
-function glide(val) {
+function bounce(val) {
 	return spring(val, {
-		stiffness: 174,
-		damping: 24
+		stiffness: 330,
+		damping: 22
 	})
 }
 
 const pageTransitions = {
 	atEnter: {
 		opacity: 0,
-		offset: 100
+		scale: 1.2
 	},
 	atLeave: {
-		opacity: glide(0),
-		offset: glide(-100)
+		opacity: bounce(0),
+		scale: bounce(0.8)
 	},
 	atActive: {
-		opacity: glide(1),
-		offset: glide(0)
+		opacity: bounce(1),
+		scale: bounce(1)
 	}
 }
 
@@ -37,7 +37,7 @@ class Content extends Component {
 					{...pageTransitions}
 					mapStyles={styles => ({
 						opacity: styles.opacity,
-						transform: `translateX(${styles.offset}%)`
+						transform: `scale(${styles.scale})`
 					})}
 				>
 					<Route path="/about" component={Home} />
