@@ -13,6 +13,7 @@
 	margin-left: 15%;
 	display: inline;
 	white-space: nowrap;
+	color: white;
 }
 
 @media all and (max-width: 900px) {
