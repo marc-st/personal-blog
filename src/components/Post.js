@@ -13,6 +13,7 @@ class Post extends Component {
 	}
 
 	componentWillMount() {
+		console.log(this.props.match)
 		const readmePath = require('../markdown/' + this.props.filename + '.md')
 		fetch(readmePath)
 			.then(response => {
@@ -34,7 +35,7 @@ class Post extends Component {
 				<ReactDisqusComments
 					shortname="marcst-com"
 					identifier={this.props.filename}
-					url={this.props.match}
+					url={'https://marcst.com/#/' + this.props.match}
 					title={this.props.filename}
 					onNewComment={this.handleNewComment}
 				/>

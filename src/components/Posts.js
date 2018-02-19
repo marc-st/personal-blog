@@ -15,6 +15,7 @@ class List extends Component {
 	render() {
 		return (
 			<ul className="postLinks">
+				<h2> blog posts: </h2>
 				{Object.values(bloglist).map((review, i) => <ListItem review={review} key={i} match={this.props.match} />)}
 			</ul>
 		)
