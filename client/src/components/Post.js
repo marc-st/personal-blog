@@ -1,9 +1,6 @@
 import React, { Component } from 'react'
 import marked from 'marked'
 import ReactDisqusComments from 'react-disqus-comments'
-import Butter from 'buttercms'
-
-const butter = Butter('725982dd1144300a0f449823571b00760d73eb40')
 
 class Post extends Component {
 	constructor(props) {
