@@ -22,13 +22,16 @@ class List extends Component {
 	}
 }
 
-const Blog = props =>
-	Object.values(bloglist).map((review, i) => (
-		<Route
-			path={props.match.path + review.url}
-			render={() => <Post filename={review.filename} match={props.match.path + review.url} />}
-		/>
-	))
+const Blog = props => (
+	<div className="blog-posts">
+		{Object.values(bloglist).map((review, i) => (
+			<Route
+				path={props.match.path + review.url}
+				render={() => <Post filename={review.filename} match={props.match.path + review.url} />}
+			/>
+		))}
+	</div>
+)
 
 export const Posts = ({ match }) => (
 	<React.Fragment>
