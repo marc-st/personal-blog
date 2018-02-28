@@ -1,52 +1,48 @@
-.mediaLinks {
+.home {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
-	align-items: baseline;
-	width: 55%;
-	margin: auto;
-	padding-top: 5%;
+	justify-content: space-between;
 }
 .profileImageWrap {
-	float: left;
-	display: inline;
-	padding-right: 5%;
-	padding-bottom: 5%;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 .profileImage {
-	width: 250px;
-	height: 250px;
+	width: 200px;
+	height: 200px;
 	align-items: center;
 	background-image: url('../images/marc.jpg');
 	background-size: cover;
-	border-radius: 125px;
-	-webkit-border-radius: 125px;
-	-moz-border-radius: 125px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
 	box-shadow: 2px 0px 3px grey;
 }
-.mediaLink {
-	padding-right: 15%;
-}
-.profileDesc {
+.links ul {
 	display: inline;
-	padding-bottom: 5%;
+	margin-left: 0;
 }
-hr {
-	width: 100%;
-	margin: auto;
+.links li {
+	display: block;
+	font-size: 3em;
+	margin-right: 0;
+	padding-bottom: 10%;
 }
+
 @media all and (max-width: 900px) {
 	/* css for mobile devices */
-	.profileImageWrap {
-		float: none;
-		display: inline;
-	}
 	.profileImage {
-		margin-left: auto;
-		margin-right: auto;
+		width: 150px;
+		height: 150px;
+		align-items: center;
+		background-image: url('../images/marc.jpg');
+		background-size: cover;
+		border-radius: 125px;
+		-webkit-border-radius: 125px;
+		-moz-border-radius: 125px;
+		box-shadow: 2px 0px 3px grey;
 	}
-	.profileDesc {
-		float: none;
-		display: block;
+	.links li {
+		font-size: 1.5em;
 	}
 }

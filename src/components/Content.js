@@ -40,7 +40,7 @@ class Content extends Component {
 						transform: `scale(${styles.scale})`
 					})}
 				>
-					<Route path="/about" component={Home} />
+					<Route exact path="/" component={Home} />
 					<Route path="/posts" component={Posts} />
 				</AnimatedSwitch>
 			</div>

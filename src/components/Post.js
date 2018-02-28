@@ -30,7 +30,8 @@ class Post extends Component {
 	render() {
 		return (
 			<section>
-				<article dangerouslySetInnerHTML={{ __html: this.state.markdown }} className="post-container" />
+				<article dangerouslySetInnerHTML={{ __html: this.state.markdown }}
+					style={{paddingBottom: 30}}/>
 				<ReactDisqusComments
 					shortname="marcst-com"
 					identifier={this.props.filename}

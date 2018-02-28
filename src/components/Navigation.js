@@ -8,7 +8,7 @@ class Navigation extends Component {
 			<div className="navigation">
 				<ul>
 					<li className="navIcon">
-						<Link to="/about">
+						<Link to="/">
 							<img src={require("../images/info.svg")} alt="Info" />
 						</Link>
 					</li>
