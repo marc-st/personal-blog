@@ -32,7 +32,7 @@ a img {
 }
 @media all and (max-width: 900px) {
 	.navigation {
-		width: 120px;
+		width: 100px;
 		margin-right: 5%;
 	}
 }

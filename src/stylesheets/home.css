@@ -8,14 +8,14 @@
 	margin-bottom: auto;
 }
 .profileImage {
-	width: 200px;
-	height: 200px;
+	width: 350px;
+	height: 350px;
 	align-items: center;
 	background-image: url('../images/marc.jpg');
 	background-size: cover;
-	border-radius: 100px;
-	-webkit-border-radius: 100px;
-	-moz-border-radius: 100px;
+	border-radius: 175px;
+	-webkit-border-radius: 175px;
+	-moz-border-radius: 175px;
 	box-shadow: 2px 0px 3px grey;
 }
 .links ul {
@@ -32,15 +32,8 @@
 @media all and (max-width: 900px) {
 	/* css for mobile devices */
 	.profileImage {
-		width: 150px;
-		height: 150px;
-		align-items: center;
-		background-image: url('../images/marc.jpg');
-		background-size: cover;
-		border-radius: 125px;
-		-webkit-border-radius: 125px;
-		-moz-border-radius: 125px;
-		box-shadow: 2px 0px 3px grey;
+		width: 0px;
+		height: 0px;
 	}
 	.links li {
 		font-size: 1.5em;
