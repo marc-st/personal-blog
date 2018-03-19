@@ -7,7 +7,7 @@ export const Home = () => (
 		<div className="links">
 			<ul>
 				<li><a href="https://github.com/marc-st">github</a></li>
-				<li>resume</li>
+				<li><a href="https://www.dropbox.com/s/u612eo8m6gzuwub/marcstevens.pdf?dl=0">resume</a></li>
 				<li><a href="https://twitter.com/marcsstevens">twitter</a></li>
 			</ul>
 		</div>

@@ -6,18 +6,9 @@ class Navigation extends Component {
 	render() {
 		return (
 			<div className="navigation">
-				<ul>
-					<li className="navIcon">
-						<Link to="/">
-							<img src={require("../images/info.svg")} alt="Info" />
-						</Link>
-					</li>
-					<li className="navIcon">
-						<Link to="/posts">
-							<img src={require("../images/blog.svg")} alt="Blog" />
-						</Link>
-					</li>
-				</ul>
+				<Link to="/posts">
+					<img src={require("../images/blog.svg")} alt="Blog" className="navIcon"/>
+				</Link>
 			</div>
 		)
 	}
