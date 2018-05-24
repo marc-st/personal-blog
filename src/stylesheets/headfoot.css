@@ -1,19 +1,18 @@
 .header {
 	height: 130px;
-	color: white;
+	color: #000000;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	background-color: #2c2c43;
+	background-color: #f9f9f9;
 	font-size: 1.6em;
 	text-align: center;
-	box-shadow: 1px 0px 9px #2c2c43;
+	box-shadow: 1px 0px 9px #bababa;
 }
 .App-title {
 	margin-left: 15%;
 	display: inline;
 	white-space: nowrap;
-	color: white;
 }
 
 @media all and (max-width: 900px) {

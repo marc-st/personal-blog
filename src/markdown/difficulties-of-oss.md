@@ -1,4 +1,4 @@
-# Difficulties with OSS
+## [Difficulties with OSS]()
 
 Open source is a fantastic way of developing software and has proved to be a very effective way for companies both small and large, to democratise the production of software.
 The positive things about OSS stretch far beyond the scope of this article, so in no way do I question it's merit. However I do question it's accessibility for newcomers like me - a CS student keen to contribute my somewhat limited experience in software.
