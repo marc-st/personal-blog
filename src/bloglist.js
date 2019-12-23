@@ -8,5 +8,10 @@ export default {
 		name: 'Accessibility of OSS',
 		url: '/accessibility-of-oss',
 		filename: 'difficulties-of-oss'
+	},
+	leahchristmas: {
+		name: 'Leah Christmas Card',
+		url: '/christmas',
+		filename: 'leah-christmas-card'
 	}
 }
