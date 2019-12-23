@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.25adf826.css",
   "main.css.map": "static/css/main.25adf826.css.map",
-  "main.js": "static/js/main.a4ce50af.js",
-  "main.js.map": "static/js/main.a4ce50af.js.map",
+  "main.js": "static/js/main.21c96610.js",
+  "main.js.map": "static/js/main.21c96610.js.map",
   "static/media/SourceCodePro-Black.ttf": "static/media/SourceCodePro-Black.fc9fc376.ttf",
   "static/media/SourceCodePro-Bold.ttf": "static/media/SourceCodePro-Bold.5a0856eb.ttf",
   "static/media/SourceCodePro-Light.ttf": "static/media/SourceCodePro-Light.4ea7ca30.ttf",
@@ -10,5 +10,6 @@
   "static/media/blog.svg": "static/media/blog.4eb3cb6b.svg",
   "static/media/difficulties-of-oss.md": "static/media/difficulties-of-oss.d39520e6.md",
   "static/media/january-books.md": "static/media/january-books.88da7ea2.md",
+  "static/media/leah-christmas-card.md": "static/media/leah-christmas-card.2878470a.md",
   "static/media/marc.jpg": "static/media/marc.fa36cb00.jpg"
 }
